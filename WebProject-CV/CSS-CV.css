@@ -1,0 +1,183 @@
+*{
+
+}
+
+body{
+    background-image: url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDRqcGZyYXd1aGxvaG8xcnE3MGx4cWZyeGxqbTlqNmplZmVtbm9hZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4H3Ii5eLChYul9p7NL/giphy-downsized-large.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    margin: 0;
+}
+
+.main1{
+    background-image: url("Assets/Afbeelding2 - Copy.jpg");
+    background-size: cover; /* Ensure the image covers the div */
+    background-repeat: no-repeat; /* Prevent repetition */
+    background-position: center; /* Center the image */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 60%;
+}
+
+
+
+#h1CV{
+    text-align: center;
+}
+
+.headerMain{
+    width: 100%;
+    display: flex;
+
+}
+
+
+#tablediv{
+    text-align: center;
+}
+
+
+#imgProfielfoto{
+    margin-right: 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 48%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#hrH1{
+    width: 30%;
+}
+
+.linksMain, .rechtsMain{
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+}
+
+.onderMain{
+    display: flex;
+}
+
+.linksMain{
+    margin: 0 auto;
+}
+
+
+
+
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: rgb(87, 189, 223);
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0 0 70px white;
+}
+button:hover{
+    transform: scale(1.2);
+}
+
+h3{
+    padding-bottom: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.main2{
+    background-image: url("Assets/Afbeelding2 - Copy.jpg");
+    background-size: cover; /* Ensure the image covers the div */
+    background-repeat: no-repeat; /* Prevent repetition */
+    background-position: center; /* Center the image */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    width: 60%;
+    display: flex;
+}
+
+.linksMain2, .rechtsMain2 {
+    width: 45%; /* Adjust widths to fit side-by-side */
+    padding: 10px;
+    box-sizing: border-box; /* Include padding in width calculation */
+    text-align: center; /* Optional: center text */
+}
+.headerMain img:hover{
+    box-shadow: 0 0 70px white;
+}
+
+.rechtsMain2 img {
+    width: 50px; /* Set width explicitly */
+    height: 50px; /* Set height explicitly */
+    object-fit: contain; /* Ensures the aspect ratio of the image is maintained */
+    display: block; /* Prevent alignment issues */
+    margin: 0 auto; /* Center image inside its container */
+}
+
+.rechtsMain2 span img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain; /* Ensures the aspect ratio of the image is maintained */
+    display: block;
+    margin: 0 auto;
+}
+
+.rechtsMain2 td {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center; /* Ensure the image is centered inside the table cell */
+}
+
+table.opleidingen td{
+    text-align: left;
+    padding: 8px 4px;
+    min-width: 70px;
+    border-bottom: 1px solid #ddd;
+}
+
+footer{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: lightblue;
+    left: 0;
+    bottom: 0;
+
+}
+
+.f1{
+    float: left;
+    display: inline;
+    margin: 10px;
+    color: black;
+}
+
+.f2{
+    display: inline-block;
+    margin : 10px;
+    color: black;
+}
+
+.f3{
+    float: right;
+    display: inline;
+    margin: 10px;
+    text-decoration: none;
+}
+.f3:hover{
+    color: black;
+}
